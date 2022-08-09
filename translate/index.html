@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <!--
+        En HTML, réaliser une liste déroulante et un bouton. La liste déroulante contiendra les valeurs suivantes :
+        - France
+        - Espagne
+        - Angleterre
+        - Italie
+        - Allemagne
+        Au clic du bouton, afficher : "Bonjour" dans la langue correspondant au pays sélectionné.
+
+    -->
+        <label for="country">Choisissez un pays</label>
+        <select id="country">
+            <option value="france" selected>France</option>
+            <option value="espagne">Espagne</option>
+            <option value="angleterre">Angleterre</option>
+            <option value="italie">Italie</option>
+            <option value="allemagne">Allemagne</option>
+        </select>
+
+    <p id="hello">Bonjour</p>
 </body>
 </html>
