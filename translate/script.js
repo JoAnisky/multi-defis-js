@@ -1,9 +1,9 @@
-var selectElem = document.getElementById('country');
-var pElem = document.getElementById('hello');
+const selectElem = document.getElementById('country');
+const pElem = document.getElementById('hello');
 
 // Quand une nouvelle <option> est selectionnée
 selectElem.addEventListener('change', function() {
-  var index = selectElem.selectedIndex;
+  let index = selectElem.selectedIndex;
   // Rapporter cette donnée au <p>
   switch (index) {
     case 0:
